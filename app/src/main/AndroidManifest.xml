@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kon_boot.laundryapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconlaundary"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/iconlaundary"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".walkthrough" />
+        <activity android:name=".GoogleLogin" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".NewOrder1Activity" />
+        <activity android:name=".MyOrdersActivity" />
+        <activity android:name=".ThankYouActivity" />
+        <activity android:name=".OrderSummaryActivity" />
+        <activity android:name=".OrderStatusActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Address" />
+        <activity android:name=".Details" />
+        <activity android:name=".ReferActivity" />
+        <activity android:name=".ChangePasswordActivity"></activity>
+    </application>
+
+</manifest>

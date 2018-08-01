@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "617634883850",
+    "firebase_url": "https://laundryapp-409eb.firebaseio.com",
+    "project_id": "laundryapp-409eb",
+    "storage_bucket": "laundryapp-409eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617634883850:android:361326959609b204",
+        "android_client_info": {
+          "package_name": "com.example.kon_boot.laundryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617634883850-q8o7tkpt2o1mjskjghjpm47k99v6c8vd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kon_boot.laundryapp",
+            "certificate_hash": "e475b1cd9ba59b4a6fbb9c9606c7b524d914f8d7"
+          }
+        },
+        {
+          "client_id": "617634883850-23l69vtb1jds6engku5mni7hqp58ds65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTcuM8h-NY2a6u-YNqiVL6D-FIfUIyon4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617634883850-23l69vtb1jds6engku5mni7hqp58ds65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
